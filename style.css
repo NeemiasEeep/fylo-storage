@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0em 20em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 15em 15em;
+}
+
+.esquerda {
+    background-color: hsl(228, 56%, 26%);
+    padding: 1em;
+    border-radius: 5px;
+    border-top-right-radius: 50px;
+}
+
+.direita {
+    background-color: hsl(228, 56%, 26%);
+    padding: 1.5em;
+    border-radius: 5px;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+.btns {
+    margin: 2em 0em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button-file {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+    border: none;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    margin-top: 1em;
+
+}
+
+.button-folder {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+    border: none;
+    padding: 0.55em 0.65em;
+    margin-top: 1em;
+
+}
+
+.button-upload {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+    border: none;
+    padding: 0.7em 0.65em;
+    margin-top: 1em;
+
+}
+.logo{
+    margin-top: 1em ;
+}
+.range {
+    width: 100%;
+    initial-value: 85%;
+    
+  }
+
+  .progress-bar {
+    background: hsl(var(--clr-drk-blue-900), .5);
+    border-radius: 35px;
+    height: 1.2rem;
+    position: relative;
+  }
+  .bt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .right{
+    text-align: right;
+  }
+  span{
+    font-size: 2em;
+    color: black;
+  }
+  h3{
+    color: rgb(149, 154, 158);
+  }
+  .branco{
+    background-color: white;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: -1.2em 3em;
+    border-radius: 10px;
+   
+}
+@media (max-width:700px) {
+    body{
+        background-size: 600%;
+        background-position: -3em 10em;
+    }
+    main{
+        display: block;
+        margin :3em 2em;
+    }
+    .direita{
+        margin-left: 0em;
+    }
+    .btns {
+        margin: 2em 0em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .button-file{
+        margin-right: 1em;
+    }
+    .button-folder{
+        margin-right: 1em;
+    }
+    .branco{
+        background-color: white;
+        color: black;
+        padding: 1em;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        margin: -1.2em 3em;
+        border-radius: 10px;
+    }
+}
+  
+  
